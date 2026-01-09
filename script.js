@@ -29,3 +29,26 @@
 //     });
 // });
 
+const form = document.getElementById("contact-form");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const data = new FormData(form);
+
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: data,
+      headers: {
+        "Accept": "application/json"
+      }
+    });
+
+    if (response.ok) {
+      window.location.href = "result.html";
+    } else {
+      alert("Submission failed. Please try again.");
+    }
+  });
+
+
