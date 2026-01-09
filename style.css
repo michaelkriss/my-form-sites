@@ -1,0 +1,154 @@
+body{
+    background-image: url("wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6' fill='rgba(249, 193, 193, 0.812)'/%3E%3C/svg%3E") 8 8, auto; */
+    cursor: pointer;
+}
+
+.title {
+    text-align:center;
+    font-size: 500%;
+    margin-bottom: 5%;
+}
+.title div{
+    margin-top: -3%;
+}
+
+.form {
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+    justify-content: center;
+    padding-left: 70px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    display: inline-block;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+/* New styles for all select tags */
+select {
+    /* 1. Change the border to pink color */
+    border: 2px solid rgba(249, 193, 193, 0.812); 
+    /* 2. Change the text to pink color */
+    color: rgba(249, 193, 193, 0.812); 
+    /* 3. Keep the color white for background */
+    background-color: white; 
+    padding: 5px;
+    border-radius: 3px;
+    width: 100%; 
+    margin-bottom: 10px; 
+    font-size: 120%; 
+    /* Optional: Remove default browser appearance for more consistent styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Optional: Add a custom arrow if you remove default appearance */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='rgba(249, 193, 193, 0.812)' d='M6 9l4-4H2z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+/* Style for options within the select tag */
+select option {
+    background-color: white;
+    color: rgba(249, 193, 193, 0.812);
+}
+
+.Age {
+    text-align: center;
+}
+
+.Mood {
+    text-align: center;
+}
+
+.MBTI {
+    text-align: center;
+}
+
+::placeholder {
+    color: rgba(255, 212, 212, 0.812);
+}
+.submit-btn {
+    background-color:white;
+    
+}
+
+
+/* RESULT */
+
+.result1 {
+    position: absolute;
+    top: 36%;
+    left: 28.5%;
+    color: rgba(255, 212, 212, 0.812);
+    /* font-size: 10%;  */
+    text-align: center;
+    box-shadow: 2px 2px white;
+    background-color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 30px;
+}
+
+
+.page-button {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: white; /* Blue background */
+        color: rgba(255, 212, 212, 0.812);
+        text-decoration: none; /* Remove underline */
+        border-radius: 6px;
+        font-size: 24px;
+        font-weight: 1500;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        box-shadow: 0 2px 4px rgba(255, 212, 212, 0.812);
+      }
+      .page-button:hover {
+        background-color: rgba(245, 245, 245, 0.905); /* Darker blue on hover */
+        box-shadow: 0 4px 8px rgba(255, 212, 212, 0.812);
+        transform: translateY(-1px); /* Subtle lift effect */
+      }
+      .page-button:active {
+        transform: translateY(0); /* Press down effect */
+}
+
+.quotesb {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: inline-block;
+    text-align: center;
+    margin-top: 180px;
+    color: rgba(255, 212, 212, 0.812);
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 30px;
+}
+
+
+
+
